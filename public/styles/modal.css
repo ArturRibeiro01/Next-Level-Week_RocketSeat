@@ -20,7 +20,6 @@
 #modal .content {
     color: white;
     width: 420px;
-    margin-top: 65vh;
 }
 
 
@@ -87,4 +86,19 @@
 #modal form button:hover {
     background-color: #2fb85e;
     outline: none;
+}
+
+
+/* isso é para o Modal da página point-created */
+
+#modal.point .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#modal.point h1 {
+    color: white;
+    margin-top: 32px;
 }

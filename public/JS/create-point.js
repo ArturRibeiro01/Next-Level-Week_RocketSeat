@@ -72,7 +72,7 @@ function handleSelecteditem (event){
 
     const itenId = itemLi.dataset.id
 
-
+    // console.log('ITEM ID:', itenId)
 
     // Verificar se tem itens selecionados e selecionar caso houver
 
@@ -98,8 +98,12 @@ function handleSelecteditem (event){
         selectedItens.push(itenId)
 
         console.log(selectedItens)
-
+ 
     }
+
+
+    // console.log('selectedItens', selectedItens)
+
     // Atualizar com os itens selecionados.
     collectedItems.value = selectedItens
 }

@@ -20,13 +20,24 @@
         align-items: center;
     }
 
-    #page-search-result .cards {
+    #page-search-results .cards {
         grid-template-columns: 1fr;
     }
 
-    #page-search-result .cards img {
+    #page-search-results .cards img {
         height: 250px;
     }
+
+    #page-create-point .field-group {
+        flex-direction: column;
+
+    }
+
+    #page-create-point .field-group .field + .field {
+        margin-left: 0;
+        
+    }
+    
     
     
 }
